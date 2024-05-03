@@ -1,0 +1,32 @@
+html {
+  font-family: "Noto Sans JP";
+}
+
+body {
+  padding: 50px;
+  padding-top: 10px;
+}
+
+#nav {
+  display: flex;
+}
+#nav span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#app {
+  margin-top: 20px;
+}
+#app .routerLink {
+  display: inline-block;
+  width: 33.3333333333%;
+  text-align: center;
+}
+#app .routerView {
+  margin-top: 0px;
+}
+
+.rightSide {
+  margin-left: auto;
+}/*# sourceMappingURL=style.css.map */
