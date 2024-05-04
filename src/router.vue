@@ -1,3 +1,4 @@
+<!-- not use -->
 <script>
   const routes = [
     { path: "/", component: httpVueLoader("./src/components/index.vue") },

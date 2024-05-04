@@ -1,9 +1,8 @@
+<!-- not use -->
 <template>
-  <rouetr-link to="/" class="routerLink">home</rouetr-link>
-  <rouetr-link to="/page1" class="routerLink">page1</rouetr-link>
-  <rouetr-link to="/page2" class="routerLink">page2</rouetr-link>
+  <router-link to="/" class="routerLink">home</router-link>
+  <router-link to="/page1" class="routerLink">page1</router-link>
+  <router-link to="/page2" class="routerLink">page2</router-link>
 
   <hr>
 </template>
-
-<script></script>
