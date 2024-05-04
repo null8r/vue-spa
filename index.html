@@ -17,19 +17,14 @@
     </div>
 
     <div id="app">
-      <router-link to="/" class="routerLink">home</router-link>
-      <router-link to="/page1" class="routerLink">page1</router-link>
-      <router-link to="/page2" class="routerLink">page2</router-link>
-
-      <hr>
-      
-      <router-view class="routerView"></router-view>
+      <v-nav></v-nav>
+      <router-view></router-view>
     </div>
 
     <script src="https://unpkg.com/vue@3"></script>
     <script src="https://unpkg.com/vue-router@4"></script>
     <script src="https://unpkg.com/http-vue-loader"></script>
 
-    <script src="src/main.js"></script>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
