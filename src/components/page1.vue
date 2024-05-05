@@ -1,7 +1,7 @@
 <template>
-  <h1>page1</h1>
+  <h1>Page1</h1>
 </template>
 
 <script>
-  document.title = "page1";
+  document.title = "Page1";
 </script>
