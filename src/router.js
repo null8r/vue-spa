@@ -1,13 +1,19 @@
+import { createRouter, createWebHistory } from "vue-router"
+import Home from "./components/index.vue"
+import Page1 from "./components/page1.vue"
+import Page2 from "./components/page2.vue"
+import HelloWorld from "./components/HelloWorld.vue"
+
 const routes = [
-  { path: "/", component: httpVueLoader("./src/components/index.vue") },
-  { path: "/page1", component: httpVueLoader("./src/components/page1.vue") },
-  { path: "/page2", component: httpVueLoader("./src/components/page2.vue") }
+  { path: "/", component: Home },
+  { path: "/page1", component: Page1 },
+  { path: "/page2", component: Page2 },
+  { path: "/helloworld", component: HelloWorld },
 ];
 
-const router = VueRouter.createRouter({
-  history: VueRouter.createWebHashHistory(), //URLに/#/が入る(URLのコピーして共有が可・SEO不利) example.com/#/home
-  //history: VueRouter.createWebHistory(), //URL/#/が入らないが、直接アクセスすると404になる(URLのコピーして共有が不可) example.com/home
+const router = createRouter({
+  history: createWebHistory(),
   routes
 });
 
-export { router };
+export default router;

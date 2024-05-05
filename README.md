@@ -1,6 +1,24 @@
-# vue-spa
+# vue-spa-2
 
-### 参考
-- [はじめてのVue Router(基本編)](https://reffect.co.jp/vue/first-time-vue-router)
-- [Vue.jsのCDNのみでSPAを作成する方法！](https://codelikes.com/vue-cdn-spa/)
-- [Vue の基本的な使い方 (4) Vue Router ルーティング](https://www.webdesignleaves.com/pr/plugins/vue-basic-04.html)
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
